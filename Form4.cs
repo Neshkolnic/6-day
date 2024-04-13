@@ -39,8 +39,8 @@ namespace _6_day
         private void button2_Click(object sender, EventArgs e)
         {
             if (ContainsCharacters(textBox6.Text, textBox5.Text))
-            { textBox1.Text = "Y"; }
-            else { textBox1.Text = "N"; }
+            { textBox1.Text = "Входят все символы"; }
+            else { textBox1.Text = "Не входят все символы"; }
             ;
         }
 
